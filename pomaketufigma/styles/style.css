@@ -1,0 +1,75 @@
+img {
+    width: 100%;
+    margin: 200px;
+    border-radius: 20px;
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+    padding: 60px;
+    font-weight: bolder;
+}
+
+#job {
+    color: rgb(226, 14, 145);
+    padding: 95px;
+}
+
+nav .menu:hover {
+    text-decoration: underline;
+}
+
+input:focus {
+    color: blue;
+}
+
+a:link {
+    color: crimson;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(112, 43, 224);
+}
+
+a:hover {
+    color: rgb(20, 220, 80);
+}
+
+#logo {
+    width: 100px;
+    border: 1px solid black;
+    position: absolute;
+    left: -200px;
+    top: -50px;
+    opacity: 0, 9;
+    box-shadow: 0 0 10px black;
+
+
+}
+
+#whoIam {
+    padding: 30px;
+    margin-top: 200px;
+    margin-left: 400px;
+
+    font-family: 'Lobster Two', cursive, 'Times New Roman', Times, serif;
+
+}
+
+#languages {
+    padding: 20px;
+    margin-top: -70px;
+    margin-left: 800px;
+}
+
+
+h2 {
+    color: blueviolet;
+}
+
+#aboutme {
+    padding: 50px;
+    margin-top: 10px;
+}
