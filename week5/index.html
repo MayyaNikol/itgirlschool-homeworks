@@ -25,14 +25,19 @@
        
         border: 1px solid blue;
         flex: 1;
+        display: flex;
+        justify-content: space-around;
     }
 section {
     flex: 1;
-    border: 1px solid blue;
-   
+    border: 1px solid rgb(207, 218, 66);
+    display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
 }
-    .main {
-        border: 1px solid blue;
+.main {
+        border: 1px solid rgb(51, 224, 74);
         flex: 2;
         flex-direction: column;
         display: flex;
@@ -51,11 +56,11 @@ section {
 
     }
     .sectionnew {
-        border: 2px solid rgb(189, 15, 87);
+        border: 3px solid rgb(189, 15, 87);
         flex: 1;
         flex-direction: row;
         display: flex;
-       justify-content: stretch;
+    
 
     }
     .menusection {
@@ -63,18 +68,25 @@ section {
         flex: 1;
         display: flex; 
 flex-direction: row;
+justify-content: space-around;
     }
 
     .footer {
-        border: 1px solid red;
-        flex: 0 0 content;
-        display: flex;
+        border: 2px solid rgb(72, 12, 184);
+    
         flex-direction: row;
-        justify-content: space-between;
+   
         height: 10vh;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+        
     }
+    
     .aside {
         flex: 1;
+        display: flex;
+        justify-content: space-around;
         
     }
 </style>
@@ -94,8 +106,11 @@ flex-direction: row;
       TITLE
     </header>
 
-<section class="sectionnew">
-    <main class="main">
+
+    
+
+<main class="sectionnew">
+    <section class="main">
 
         <section class="section3">Section3</section>
 
@@ -106,26 +121,29 @@ flex-direction: row;
 
     <aside class="aside">Aside</aside>
 
-</main>
+</section>
 
 
 <section class="section2">
 <section class="Section2">Section2</section>
 </section>
-</section>
+</main>
+
 
 
    
     
+<footer>
+<section class="footer">
+  
+<section class="footer">Contact1</section>
+<section class="footer">Contact2</section>
+<section class="footer">Contact3</section>
+<section class="footer">Contact4</section>
+</section>
 
-    <footer class="footer">
-<footer class="footer">Contact1</footer>
-<footer class="footer">Contact2</footer>
-<footer class="footer">Contact3</footer>
-<footer class="footer">Contact4</footer>
-    </footer>
-
-
+</footer>
 
 </body>
+
 </html>
