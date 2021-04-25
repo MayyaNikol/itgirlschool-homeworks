@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    header{
+        flex: 0 0 content;
+    }
+
+
+   
+    body {
+       
+        display: flex;
+        flex-flow: column;
+        min-height: 100vh;
+    }
+    
+    nav {
+       
+        border: 1px solid blue;
+        flex: 1;
+    }
+section {
+    flex: 1;
+    border: 1px solid blue;
+   
+}
+    .main {
+        border: 1px solid blue;
+        flex: 2;
+        flex-direction: column;
+        display: flex;
+       justify-content: stretch;
+    }
+    .section3 { border: 1px solid blue;
+        
+
+    }
+    .section2 {
+        border: 1px solid rgb(133, 231, 41);
+        flex: 1;
+        flex-direction: row;
+   
+       justify-content: stretch;
+
+    }
+    .sectionnew {
+        border: 2px solid rgb(189, 15, 87);
+        flex: 1;
+        flex-direction: row;
+        display: flex;
+       justify-content: stretch;
+
+    }
+    .menusection {
+        border: 2px solid rgb(189, 15, 87);
+        flex: 1;
+        display: flex; 
+flex-direction: row;
+    }
+
+    .footer {
+        border: 1px solid red;
+        flex: 0 0 content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 10vh;
+    }
+    .aside {
+        flex: 1;
+        
+    }
+</style>
+
+</head>
+
+
+
+
+
+
+
+
+<body>
+   
+    <header class="header">
+      TITLE
+    </header>
+
+<section class="sectionnew">
+    <main class="main">
+
+        <section class="section3">Section3</section>
+
+        <section class="menusection">
+    <nav class="nav">Menu</nav>
+    <section class="section">Section</section>
+</section>
+
+    <aside class="aside">Aside</aside>
+
+</main>
+
+
+<section class="section2">
+<section class="Section2">Section2</section>
+</section>
+</section>
+
+
+   
+    
+
+    <footer class="footer">
+<footer class="footer">Contact1</footer>
+<footer class="footer">Contact2</footer>
+<footer class="footer">Contact3</footer>
+<footer class="footer">Contact4</footer>
+    </footer>
+
+
+
+</body>
+</html>
